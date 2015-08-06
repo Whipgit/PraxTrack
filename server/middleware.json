@@ -1,3 +1,4 @@
+
 {
   "initial:before": {
     "loopback#favicon": {}
@@ -21,6 +22,9 @@
   "routes": {
   },
   "files": {
+    "loopback#static": {
+      "params": "$!../client"
+    }
   },
   "final": {
     "loopback#urlNotFound": {}
