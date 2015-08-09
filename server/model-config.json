@@ -31,5 +31,17 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "TsTrans": {
+  "dataSource": "db",
+  "public": true
+  },
+  "TsUniqueId": {
+  "dataSource": "db",
+  "public": true
+  },
+  "TsUserHandles": {
+  "dataSource": "db",
+  "public": true
   }
 }
