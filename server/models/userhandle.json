@@ -1,0 +1,25 @@
+{
+  "name": "UserHandle",
+  "plural": "UserHandles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "nickname": {
+      "type": "string"
+    },
+    "createdOn": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "uniqueUser": {
+      "type": "belongsTo",
+      "model": "UniqueUser",
+      "foreignKey" : "uniqueUserId"
+    }
+  },
+  "acls": [],
+  "methods": []
+}

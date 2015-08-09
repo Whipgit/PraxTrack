@@ -32,16 +32,16 @@
     "dataSource": "db",
     "public": false
   },
-  "TsTrans": {
-  "dataSource": "db",
-  "public": true
+  "Transaction": {
+    "dataSource": "db"
   },
-  "TsUniqueId": {
-  "dataSource": "db",
-  "public": true
+  "UniqueUser": {
+    "dataSource": "db"
   },
-  "TsUserHandles": {
-  "dataSource": "db",
-  "public": true
+  "UserHandle": {
+    "dataSource": "db"
+  },
+  "TransactionGroup": {
+    "dataSource": "db"
   }
 }

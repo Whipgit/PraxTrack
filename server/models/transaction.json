@@ -1,0 +1,37 @@
+{
+  "name": "Transaction",
+  "plural": "Transactions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "channelId": {
+      "type": "number"
+    },
+    "idleTime": {
+      "type": "number"
+    },
+    "country": {
+      "type": "string"
+    },
+    "lastConnected": {
+      "type": "number"
+    },
+    "createdOn": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "transactionGroup": {
+      "type": "belongTo",
+      "model": "TransactionGroup"
+    },
+    "uniqueUser": {
+      "type": "belongTo",
+      "model": "UniqueUser"
+    }
+  },
+  "acls": [],
+  "methods": []
+}

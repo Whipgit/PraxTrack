@@ -1,0 +1,29 @@
+{
+  "name": "TransactionGroup",
+  "plural": "TransactionGroups",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "createdOn": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "transactions": {
+      "type": "hasMany",
+      "model": "Transaction",
+      "foreignKey" : "transactionGroupId"
+    },
+    "uniqueUsers": {
+      "type": "hasMany",
+      "model": "UniqueUser",
+      "through": "Transaction",
+      "foreignKey" : "transactionGroupId",
+      "keyThrough" : "uniqueUserId"
+    }
+  },
+  "acls": [],
+  "methods": []
+}
