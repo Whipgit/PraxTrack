@@ -1,0 +1,31 @@
+{
+  "name": "UniqueUser",
+  "plural": "UniqueUsers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "uniqueId": {
+      "type": "string",
+      "required": true,
+      "index": {"unique": true}
+    },
+    "createdOn": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "transactions": {
+      "type": "hasMany",
+      "model": "Transactions",
+      "foreignKey" : "uniqueUserId"
+    },
+    "handles": {
+      "type": "hasMany",
+      "model": "UserHandle"
+    }
+  },
+  "acls": [],
+  "methods": []
+}
