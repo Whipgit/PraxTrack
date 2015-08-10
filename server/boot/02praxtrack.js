@@ -118,8 +118,10 @@ function onError(error) {
   console.log(error);
 }
 
+/*
 login()
   .then(useIdOne, onError)
   .then(connectMongo, onError)
   .then(getTeamspeakUsers, onError)
   .then(loopThroughArray, onError);
+  */

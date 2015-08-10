@@ -24,11 +24,11 @@
   "validations": [],
   "relations": {
     "transactionGroup": {
-      "type": "belongTo",
+      "type": "belongsTo",
       "model": "TransactionGroup"
     },
     "uniqueUser": {
-      "type": "belongTo",
+      "type": "belongsTo",
       "model": "UniqueUser"
     }
   },

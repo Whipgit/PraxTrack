@@ -43,5 +43,8 @@
   },
   "TransactionGroup": {
     "dataSource": "db"
+  },
+  "Teamspeak": {
+    "dataSource": "db"
   }
 }
