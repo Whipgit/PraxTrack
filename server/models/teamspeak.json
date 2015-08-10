@@ -1,0 +1,10 @@
+{
+  "name": "Teamspeak",
+  "plural": "Teamspeak",
+  "base": "Model",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

@@ -1,0 +1,14 @@
+{
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "script": "server/server.js",
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "client"
+  ],
+  "verbose": true,
+  "ext": "js json"
+}
