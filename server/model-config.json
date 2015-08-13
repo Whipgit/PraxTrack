@@ -32,6 +32,9 @@
     "dataSource": "db",
     "public": false
   },
+  "TransactionGroup": {
+    "dataSource": "db"
+  },
   "Transaction": {
     "dataSource": "db"
   },
@@ -39,9 +42,6 @@
     "dataSource": "db"
   },
   "UserHandle": {
-    "dataSource": "db"
-  },
-  "TransactionGroup": {
     "dataSource": "db"
   },
   "Teamspeak": {
