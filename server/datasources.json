@@ -1,6 +1,9 @@
 {
   "db": {
-    "name": "db",
-    "connector": "memory"
+    "name": "mongodb",
+    "connector": "mongodb",
+    "host": "localhost",
+    "database": "teamspeak",
+    "port": 27017
   }
 }
