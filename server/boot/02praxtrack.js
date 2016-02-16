@@ -40,8 +40,8 @@ function storeTransactionalRecord(db) {
 function login() {
   return new promise(function(resolve, reject) {
     cl.send("login", {
-        client_login_name: "praxustracker",
-        client_login_password: "vadn38tM"
+        client_login_name: "***",
+        client_login_password: "***"
       },
       function(err, response) {
         if (err) {
